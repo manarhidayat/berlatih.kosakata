@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:opacity="opaque">
+    <item android:gravity="fill">
+        <color android:color="@color/splashscreen_bg" />
+    </item>
+
+    <item android:gravity="fill">
+        <bitmap android:src="@mipmap/ic_launcher_round" android:gravity="center" />
+    </item>
+</layer-list>

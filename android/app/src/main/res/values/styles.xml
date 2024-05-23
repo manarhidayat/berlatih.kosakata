@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:opacity">opaque</item>
+        <item name="android:windowBackground">@drawable/compat_splash_screen</item>
+        <item name="android:editTextBackground">@drawable/rn_edit_text_material</item>
+    </style>
+
+    <style name="Theme.BootSplash.DayNight" parent="AppTheme">
+        <item name="android:statusBarColor">@color/splashscreen_bg</item>
+        <item name="android:windowEnterAnimation">@anim/bootsplash_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/bootsplash_fade_out</item>
+        <item name="android:navigationBarColor">@color/splashscreen_bg</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:ignore="NewApi">@drawable/transparent_pixel</item>
+<!--        uncomment this line to disable app icon splashscreen-->
+<!--        <item name="android:windowIsTranslucent">true</item>-->
+    </style>
+
+    <!-- Adds the splash screen definition -->
+    <style name="BootSplashNoAnimation">
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@null</item>
+    </style>
+
+    <style name="BootSplashFadeOutAnimation">
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@anim/bootsplash_fade_out</item>
+    </style>
+
+    <style name="Theme.BootSplash.EdgeToEdge.Common" parent="AppTheme">
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+</resources>
