@@ -6,8 +6,7 @@ if (__DEV__) {
   Reactotron?.clear();
 
   // https://github.com/infinitered/reactotron for more options!
-  Reactotron.configure({name: 'VSBoilerPlateV2'})
-    // Reactotron.configure({name: 'VirtualSpace'})
+  Reactotron.configure({name: 'BerlatihKosakataArab'})
     .useReactNative()
     .connect();
 

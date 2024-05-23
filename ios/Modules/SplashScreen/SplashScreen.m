@@ -1,9 +1,3 @@
-//
-//  SplashScreen.m
-//  VsBoilerPlateV2
-//
-//  Created by Rahmat Zulfikri on 10/02/23.
-//
 
 #import <UIKit/UIKit.h>
 #import "React/RCTBridgeModule.h"

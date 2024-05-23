@@ -1,4 +1,4 @@
-package com.vsboilerplatev2.modules.splashscreen;
+package id.web.harmoni.berlatihkosakataarab.modules.splashscreen;
 
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;

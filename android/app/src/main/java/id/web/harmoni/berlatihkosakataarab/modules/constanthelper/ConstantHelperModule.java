@@ -1,9 +1,9 @@
-package com.vsboilerplatev2.modules.constanthelper;
+package id.web.harmoni.berlatihkosakataarab.modules.constanthelper;
 
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReactApplicationContext;
-import com.vsboilerplatev2.BuildConfig;
+import id.web.harmoni.berlatihkosakataarab.BuildConfig;
 
 public class ConstantHelperModule extends ReactContextBaseJavaModule {
   public ConstantHelperModule(ReactApplicationContext reactContext) {

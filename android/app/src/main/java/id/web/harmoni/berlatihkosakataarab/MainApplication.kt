@@ -1,4 +1,4 @@
-package com.vsboilerplatev2;
+package id.web.harmoni.berlatihkosakataarab;
 
 import android.app.Application
 import com.facebook.react.PackageList
@@ -13,7 +13,7 @@ import com.facebook.react.flipper.ReactNativeFlipper
 import com.facebook.soloader.SoLoader
 import com.microsoft.codepush.react.CodePush
 
-import com.vsboilerplatev2.modules.MyReactPackage
+import id.web.harmoni.berlatihkosakataarab.modules.MyReactPackage
 
 class MainApplication : Application(), ReactApplication {
   override val reactNativeHost: ReactNativeHost =

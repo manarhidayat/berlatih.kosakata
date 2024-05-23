@@ -1,4 +1,4 @@
-package com.vsboilerplatev2.modules.splashscreen;
+package id.web.harmoni.berlatihkosakataarab.modules.splashscreen;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -10,7 +10,7 @@ import android.view.WindowManager;
 import androidx.annotation.NonNull;
 import androidx.annotation.StyleRes;
 
-import com.vsboilerplatev2.R;
+import id.web.harmoni.berlatihkosakataarab.R;
 
 public class SplashScreenDialog extends Dialog {
 

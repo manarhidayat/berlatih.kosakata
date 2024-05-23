@@ -1,4 +1,4 @@
-package com.vsboilerplatev2.modules.splashscreen;
+package id.web.harmoni.berlatihkosakataarab.modules.splashscreen;
 
 import android.app.Activity;
 import android.os.Build;
@@ -19,7 +19,7 @@ import java.lang.reflect.Field;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import com.vsboilerplatev2.R;
+import id.web.harmoni.berlatihkosakataarab.R;
 
 public class SplashScreenImpl {
 

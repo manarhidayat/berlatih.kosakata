@@ -1,4 +1,4 @@
-package com.vsboilerplatev2
+package id.web.harmoni.berlatihkosakataarab
 
 import android.os.Bundle
 import android.os.PersistableBundle
@@ -7,14 +7,14 @@ import com.facebook.react.ReactActivityDelegate
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.fabricEnabled
 import com.facebook.react.defaults.DefaultReactActivityDelegate
 
-import com.vsboilerplatev2.modules.splashscreen.SplashScreenImpl
+import id.web.harmoni.berlatihkosakataarab.modules.splashscreen.SplashScreenImpl
 
 class MainActivity : ReactActivity() {
   /**
    * Returns the name of the main component registered from JavaScript. This is used to schedule
    * rendering of the component.
    */
-  override fun getMainComponentName(): String = "VsBoilerPlateV2"
+  override fun getMainComponentName(): String = "Berlatih Kosakata Arab"
 
   /**
    * Returns the instance of the [ReactActivityDelegate]. We use [DefaultReactActivityDelegate]

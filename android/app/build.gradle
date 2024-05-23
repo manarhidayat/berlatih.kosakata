@@ -76,9 +76,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.vsboilerplatev2"
+    namespace "id.web.harmoni.berlatihkosakataarab"
     defaultConfig {
-        applicationId "com.vsboilerplatev2"
+        applicationId "id.web.harmoni.berlatihkosakataarab"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -96,7 +96,7 @@ android {
         debug {
             signingConfig signingConfigs.debug
             applicationIdSuffix ".staging"
-            resValue "string", "app_name", "Debug - VSBoilerPlateV2"
+            resValue "string", "app_name", "Debug - Berlatih Kosakata Arab"
             resValue "string", "CodePushDeploymentKey", '""'
             buildConfigField "String", "BASE_URL", '"https://reqres.in/"'
             buildConfigField "String", "ENVIRONTMENT", '"DEBUG"'
@@ -106,7 +106,7 @@ android {
             // see https://reactnative.dev/docs/signed-apk-android.
             signingConfig signingConfigs.debug
             applicationIdSuffix ".staging"
-            resValue "string", "app_name", "Staging - VSBoilerPlateV2"
+            resValue "string", "app_name", "Staging - Berlatih Kosakata Arab"
             resValue "string", "CodePushDeploymentKey", '"f6H5CF0D1CNkzoE5Vytd5pCr1NWIAZ9JgmSND"'
             buildConfigField "String", "BASE_URL", '"https://reqres.in/"'
             buildConfigField "String", "ENVIRONTMENT", '"STAGING"'
@@ -118,7 +118,7 @@ android {
             // Caution! In production, you need to generate your own keystore file.
             // see https://reactnative.dev/docs/signed-apk-android.
             signingConfig signingConfigs.debug
-            resValue "string", "app_name", "VSBoilerPlateV2"
+            resValue "string", "app_name", "Berlatih Kosakata Arab"
             resValue "string", "CodePushDeploymentKey", '"Wi05PfBPyX7R4k-7avYlvETWvGsLik-AJVU8N"'
             buildConfigField "String", "BASE_URL", '"https://reqres.in/"'
             buildConfigField "String", "ENVIRONTMENT", '"PRODUCTION"'
